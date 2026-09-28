@@ -1,3 +1,5 @@
 .DS_Store
 __pycache__/
 *.pyc
+MUJOCO_LOG.TXT
+visual_servo_results/
