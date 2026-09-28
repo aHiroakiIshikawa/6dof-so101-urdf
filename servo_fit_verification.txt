@@ -1,0 +1,83 @@
+WARNING: Robot has the following self collisions in neutral position:
+  -base_link_2 collides with shoulder_link_2
+  -shoulder_link_0 collides with upper_arm_link_1
+  -upper_arm_link_0 collides with lower_arm_link_0
+  -lower_arm_link_2 collides with wrist_link_1
+  -wrist_link_0 collides with wrist_yaw_link_1
+  -wrist_link_0 collides with gripper_link_1
+  -wrist_link_1 collides with gripper_link_1
+  -wrist_yaw_link_0 collides with gripper_link_0
+  -wrist_yaw_link_0 collides with gripper_link_1
+  -wrist_yaw_link_1 collides with gripper_link_0
+  -wrist_yaw_link_1 collides with gripper_link_1
+  -gripper_link_0 collides with moving_jaw_so101_v1_link_0
+Loaded URDF with LeRobot RobotKinematics
+URDF: /Users/hiroaki.ishikawa/Documents/iot_tech/6dof_so101/so101_6dof_urdf_package_with_verify/so101_6dof_new_calib.urdf
+Target frame: gripper_frame_link
+Arm joints: ['shoulder_pan', 'shoulder_lift', 'elbow_flex', 'wrist_flex', 'wrist_yaw', 'wrist_roll']
+
+[zero]
+position [m] = [0.368261 0.000042 0.242271]
+frame X in base = [-0.000001 -0.000003  1.      ]
+frame Y in base = [ 0.000006 -1.       -0.000003]
+frame Z in base = [1.       0.000006 0.000001]
+T_base_gripper_frame =
+[[-0.000001  0.000006  1.        0.368261]
+ [-0.000003 -1.        0.000006  0.000042]
+ [ 1.       -0.000003  0.000001  0.242271]
+ [ 0.        0.        0.        1.      ]]
+
+[yaw +30]
+position [m] = [ 0.355894 -0.046551  0.24227 ]
+frame X in base = [-0.000001 -0.000004  1.      ]
+frame Y in base = [-0.499995 -0.866029 -0.000004]
+frame Z in base = [ 0.866029 -0.499995 -0.000001]
+T_base_gripper_frame =
+[[-0.000001 -0.499995  0.866029  0.355894]
+ [-0.000004 -0.866029 -0.499995 -0.046551]
+ [ 1.       -0.000004 -0.000001  0.24227 ]
+ [ 0.        0.        0.        1.      ]]
+
+[yaw -30]
+position [m] = [0.355675 0.046576 0.242271]
+frame X in base = [-0.000001 -0.000001  1.      ]
+frame Y in base = [ 0.500005 -0.866022 -0.      ]
+frame Z in base = [0.866022 0.500005 0.000002]
+T_base_gripper_frame =
+[[-0.000001  0.500005  0.866022  0.355675]
+ [-0.000001 -0.866022  0.500005  0.046576]
+ [ 1.       -0.        0.000002  0.242271]
+ [ 0.        0.        0.        1.      ]]
+
+[roll +30]
+position [m] = [0.368261 0.003963 0.241103]
+frame X in base = [-0.000004  0.499998  0.866027]
+frame Y in base = [ 0.000004 -0.866027  0.499998]
+frame Z in base = [1.       0.000005 0.000001]
+T_base_gripper_frame =
+[[-0.000004  0.000004  1.        0.368261]
+ [ 0.499998 -0.866027  0.000005  0.003963]
+ [ 0.866027  0.499998  0.000001  0.241103]
+ [ 0.        0.        0.        1.      ]]
+
+[roll -30]
+position [m] = [ 0.368261 -0.003937  0.241321]
+frame X in base = [ 0.000003 -0.500002  0.866024]
+frame Y in base = [ 0.000007 -0.866024 -0.500002]
+frame Z in base = [1.       0.000008 0.000001]
+T_base_gripper_frame =
+[[ 0.000003  0.000007  1.        0.368261]
+ [-0.500002 -0.866024  0.000008 -0.003937]
+ [ 0.866024 -0.500002  0.000001  0.241321]
+ [ 0.        0.        0.        1.      ]]
+
+ yaw +30 EE displacement from zero [mm] = [-12.367 -46.593  -0.   ]
+
+ yaw -30 EE displacement from zero [mm] = [-12.586  46.534   0.   ]
+
+roll +30 EE displacement from zero [mm] = [-0.     3.921 -1.167]
+
+roll -30 EE displacement from zero [mm] = [ 0.    -3.979 -0.949]
+
+Numerical FK check finished.
+Add --visualize to inspect the actual URDF geometry and coordinate frames in MeshCat.
